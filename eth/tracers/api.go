@@ -54,7 +54,7 @@ const (
 	// defaultTraceReexec is the number of blocks the tracer is willing to go back
 	// and reexecute to produce missing historical state necessary to run a specific
 	// trace.
-	defaultTraceReexec = uint64(128)
+	defaultTraceReexec = uint64(10000)
 
 	// defaultTracechainMemLimit is the size of the triedb, at which traceChain
 	// switches over and tries to use a disk-backed database instead of building
